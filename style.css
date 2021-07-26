@@ -24,15 +24,26 @@
     padding: 20px;
 }
 .figura__titulo{
-    
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 .figura__contenido{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.figura__resultado{
+.figura__contenido__buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.figura__resultado {
     
+}
+.figura__resultado p:hover{
+    font-weight: bold;
 }
 
 .figura__resultado--texto{
@@ -59,7 +70,6 @@
 
 
 .button{
-    background-color: #4CAF50;
     height: 30px;
     width: 100px;
     border-radius: 15px;

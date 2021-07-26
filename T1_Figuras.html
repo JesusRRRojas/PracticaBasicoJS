@@ -15,53 +15,69 @@
     
     </header>
     <div class="content">
-        <section class="figura">
-            <div class="figura__titulo">
-                <h2 class="figura__titulo--texto">Cuadrado</h2>
-            </div>
-            <div class="figura__contenido">
-                <input type="text" class="input" placeholder="Ingrese Lado"  >
-                <button class="button">Calcular</button>
-            </div>
-            <div class="figura__resultado">
-                <p class="figura__resultado--texto">Perimetro de Cudrado: </p>
-                <p class="figura__resultado--texto">Area de Cudrado: </p>
-            </div>
-         
-           
-           
-        </section>
-        <section class="figura">
+        <form action="">
+            <section class="figura">
+                <div class="figura__titulo">
+                    <label class="figura__titulo--texto" for="InputLadoCuadrado">Cuadrado</label>
+                </div>
+                <div class="figura__contenido">
+                    <input type="number"  class="input"  placeholder="Ingrese Lado" id="InputLadoCuadrado"  >
+                    <div class="figura__contenido__buttons">
+                        <button type="button" class="button" onclick="calcularPerimetroCuadrado()" >Calcular Perímetro</button>
+                        <button type="button" class="button" onclick="calcularAreaCuadrado()">Calcular Área</button>
+                    </div>
+                </div>
+                <div class="figura__resultado">
+                    <p class="figura__resultado--texto">Perimetro de Cudrado: </p>
+                    <p class="figura__resultado--texto">Area de Cudrado: </p>
+                </div>              
+            </section>
+             
+        </form>
+      
 
-            <div class="figura__titulo">
-                <h2 class="figura__titulo--texto">Triangulo</h2>
-            </div>
-            <div class="figura__contenido">
-                <input type="text" class="input" placeholder="Ingrese Lado 1"  >
-                <input type="text" class="input" placeholder="Ingrese Lado 2"  >
-                <input type="text" class="input" placeholder="Ingrese Base"  >
-                <button class="button">Calcular</button>
-            </div>
-            <div class="figura__resultado">
-                <p class="figura__resultado--texto">Perimetro de Cudrado: </p>
-                <p class="figura__resultado--texto">Area de Cudrado: </p>
-            </div>
+        <form action="">
+            <section class="figura">
+                <div class="figura__titulo">
+                    <label class="figura__titulo--texto" for="InputLadoCuadrado">Triangulo</label>
+                </div>
+                <div class="figura__contenido">
+                    <input type="number" class="input" placeholder="Ingrese Lado 1" id="InputLadoTriangulo1" >
+                    <input type="number" class="input" placeholder="Ingrese Lado 2" id="InputLadoTriangulo2"  >
+                    <input type="number" class="input" placeholder="Ingrese Base"   id="InputLadoTriangulo3"  >
+                    <div class="figura__contenido__buttons">
+                        <button type="button" class="button" onclick="calcularPerimetroTriangulo()" >Calcular Perímetro</button>
+                        <button type="button" class="button" onclick="calcularAreaTriangulo()">Calcular Área</button>
+                    </div>
+                </div>
+                <div class="figura__resultado">
+                    <p class="figura__resultado--texto">Perimetro de Triángulo: </p>
+                    <p class="figura__resultado--texto">Area de Triángulo: </p>
+                </div>              
+            </section>
+             
+        </form>
 
-        </section>
-        <section class="figura">
-            <div class="figura__titulo">
-                <h2 class="figura__titulo--texto">Circulo</h2>
-            </div>
-            <div class="figura__contenido">
-                <input type="text" class="input" placeholder="Ingrese Radio"  >
-                <button class="button">Calcular</button>
-            </div>
-            <div class="figura__resultado">
-                <p class="figura__resultado--texto">Perimetro de Cudrado: </p>
-                <p class="figura__resultado--texto">Area de Cudrado: </p>
-            </div>
+        <form action="">
+            <section class="figura">
+                <div class="figura__titulo">
+                    <label class="figura__titulo--texto" >Circulo e</label>
+                </div>
+                <div class="figura__contenido">
+                    <input type="number" class="input" placeholder="Ingrese Radio" id="InputRadioCirculo"   >
+                    <div class="figura__contenido__buttons">
+                        <button type="button" class="button" onclick="calcularPerimetroCirculo()" >Calcular Perímetro</button>
+                        <button type="button" class="button" onclick="calcularAreaCirculo()">Calcular Área</button>
+                    </div>
+                </div>
+                <div class="figura__resultado">
+                    <p class="figura__resultado--texto">Perimetro de Círculo: </p>
+                    <p class="figura__resultado--texto">Area de Círculo: </p>
+                </div>              
+            </section>
+             
+        </form>
 
-        </section>
     </div>
 
 

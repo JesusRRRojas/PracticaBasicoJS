@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./T2_DescuentosStyle.css">
+    <title>Calculadora Descuentos | Reto 2</title>
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            Calculadora de Descuentos
+        </div>
+    </header>
+
+
+    <div class="content">
+        <form action="">
+        
+            <div class="contenido">
+                <div class="contenido__fila">
+                    <label class="description" for="">Sub Total</label>
+                    <input type="number" class="input" id="InputSubTotal" >
+                </div>
+                <div class="contenido__fila">
+                    <label class="description" for="">Descuento %</label>
+                    <input type="number" class="input" id="InputDescuento">
+                </div>
+                <button type="button" class="button" onclick="calcular()">Calcular Pago</button>
+             
+                <div class="contenido__fila">
+                    <label class="description" for="">Total Pagar</label>
+                    <p class="description" id="resultTotal"  for=""></p>
+                </div>
+            </div>
+    
+           
+            
+         
+        
+        </form>
+        
+    </div>
+  
+    <script src="./T2_Descuentos.js"></script>
+</body>
+</html>
