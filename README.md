@@ -23,3 +23,13 @@ Proyecto Basico de Prueba de JavaScript
 3.- Crear funciones
 
 4.- Integrar JS con HTML
+
+# Taller 3: Promedio, Mediana y  Moda
+
+1.- Definir las formulas
+
+2.- implementar las formulas en JS
+
+3.- Crear funciones
+
+4.- Integrar JS con HTML
